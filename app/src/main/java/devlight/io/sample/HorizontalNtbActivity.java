@@ -76,7 +76,7 @@ public class HorizontalNtbActivity extends Activity {
                         getResources().getDrawable(R.drawable.ic_second),
                         Color.parseColor(colors[1]))
 //                        .selectedIcon(getResources().getDrawable(R.drawable.ic_eighth))
-                        .title("Cup")
+                        .title("Execirse")
 //                        .badgeTitle("with")
                         .build()
         );
@@ -94,7 +94,7 @@ public class HorizontalNtbActivity extends Activity {
                         getResources().getDrawable(R.drawable.ic_fourth),
                         Color.parseColor(colors[3]))
 //                        .selectedIcon(getResources().getDrawable(R.drawable.ic_eighth))
-                        .title("Flag")
+                        .title("Food")
 //                        .badgeTitle("icon")
                         .build()
         );

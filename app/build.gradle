@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 28
+    buildToolsVersion '29.0.3'
 
     defaultConfig {
         applicationId "devlight.io.navigationtabbar"
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -18,15 +18,14 @@ android {
         }
     }
     compileOptions {
-        targetCompatibility 1.7
-        sourceCompatibility 1.7
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
     }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':navigationtabbar')
-//    compile 'com.github.devlight.navigationtabbar:navigationtabbar:1.2.3'
 
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
